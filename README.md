@@ -22,7 +22,7 @@ This small project converts files in `input/` into Markdown in `output/`.
 .
 ├─ input/                   # put your files here (can be nested)
 ├─ output/                  # generated markdown appears here
-└─ excel_sheets_to_markdown.py
+└─ markdown.py
 ```
 
 ## Install dependencies
@@ -32,13 +32,13 @@ pip install pandas openpyxl tabulate python-docx pymupdf
 
 ## Run
 ```bash
-python excel_sheets_to_markdown.py input output
-python excel_sheets_to_markdown.py "anysource" "anydest"
+python markdown.py input output
+python markdown.py "anysource" "anydest"
 ```
 
 If you omit args, it defaults to `input/` and `output/`:
 ```bash
-python excel_sheets_to_markdown.py
+python markdown.py
 ```
 
 ## Notes
