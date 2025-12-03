@@ -1,6 +1,4 @@
-# Prompt Guide (Reusable)
-
-## Short prompt (no OCR)
+# Prompt Guide
 You are a senior Python engineer. Write a robust CLI script named `excel_sheets_to_markdown.py` that converts files from `input/` to Markdown in `output/`.
 
 Rules:
