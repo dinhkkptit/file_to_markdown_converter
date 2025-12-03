@@ -33,6 +33,7 @@ pip install pandas openpyxl tabulate python-docx pymupdf
 ## Run
 ```bash
 python excel_sheets_to_markdown.py input output
+python excel_sheets_to_markdown.py "anysource" "anydest"
 ```
 
 If you omit args, it defaults to `input/` and `output/`:
